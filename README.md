@@ -44,17 +44,7 @@ L       | connect to Ur external Speaker(L-CH, cathode)
 
 ### Earphone：
 
-          +  -   
-GPIO26-----||-------RL----NC   
-        10V470uF    |-------Earphone L-CH   
-        
-          +  -   
-GPIO27-----||-------RL----NC  
-        10V470uF    |-------Earphone R-CH   
-        
-
-
-
+![图片](https://user-images.githubusercontent.com/120780632/222940321-a78a1a4c-6252-4ccd-bc01-8c6738b2d35b.png)
 
 
 # 下面是中文版本   
@@ -104,16 +94,9 @@ L        | 连接到你的外置扬声器（左声道，负极）
 ### 耳机：
 耳机左声道可以直接通过一个可调电阻（经过测试，最好是103（即10KΩ）电位器）和一个电容（47uF基本可以，470uF就很不错了，没试过更大的电容）连接到ESP32的GPIO26上，    
 右声道也是如此，不过连接到GPIO27上。   
-
-          +  -   
-GPIO26-----||-------RL----NC(即不连接)   
-        10V470uF    |-------耳机左声道   
-           
-          +  -      
-GPIO27-----||-------RL----NC(即不连接)     
-        10V470uF    |-------耳机右声道   
         
           
+![图片](https://user-images.githubusercontent.com/120780632/222940313-c74dde40-51ec-44df-ad44-3c0f08fde834.png)
 
 
 
