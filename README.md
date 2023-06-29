@@ -7,10 +7,10 @@ A powerful ANY audio player based on ESP32 &amp; Arduino.
 You may have to change 'audio.setVolume(HERE);' to change the volume. volume is 0~21.
 
 ## Downloading .h:
-### SdFat.h at https://github.com/greiman/sdfat !UNDER MIT LICENSE!
-### Audio.h at https://github.com/schreibfaul1/ESP32-audioI2S !UNDER GPL 3.0 LICENSE!
+### SdFat.h at https://github.com/greiman/sdfat UNDER MIT LICENSE!
+### Audio.h at https://github.com/schreibfaul1/ESP32-audioI2S UNDER GPL 3.0 LICENSE!
 ### Warning, to be compatible with sdfat, you should change Audio.cpp and Audio.h which is in ESP32-audioI2S.
-### After downloading, please use the .cpp and .h at http://alexander-zone.wikidot.com/local--files/code/Audio_cpp_h_changes.zip to replace them.
+### After downloading, please use the .cpp(s) and .h(s) at http://alexander-zone.wikidot.com/local--files/code/Audio_cpp_h_changes.zip to replace them.
 
 ## Wiring:
 ### SD CARD
